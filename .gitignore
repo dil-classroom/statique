@@ -11,7 +11,7 @@ log/
 target/
 
 # Release
-statique/
+/statique/
 
 # JMH
 jmh-result.json
