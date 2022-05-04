@@ -22,7 +22,7 @@ public class Statique implements Callable<Integer> {
   }
 
   @Override
-  public Integer call() throws Exception {
+  public Integer call() {
     CommandLine.usage(this, System.out);
     return 0;
   }
